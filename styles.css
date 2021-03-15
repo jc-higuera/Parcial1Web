@@ -1,0 +1,587 @@
+body {
+  background: #e5e5e5;
+  margin: 0px;
+}
+
+.headerDiv {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 2px;
+
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.marca {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 100px;
+  top: 10px;
+
+  background: url(/img/marca.png);
+  mix-blend-mode: normal;
+  border-radius: 2px;
+}
+
+.barraDiv {
+  position: absolute;
+  width: 892px;
+  height: 47px;
+  left: 448px;
+  top: 20px;
+
+  background: #ffffff;
+}
+
+.textInput {
+  position: absolute;
+  width: 792px;
+  height: 30px;
+  top: 9px;
+  padding: 0%;
+  border: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #d5c9c9;
+}
+
+.divSearchImg {
+  position: absolute;
+  width: 56px;
+  height: 47px;
+  left: 1284px;
+  top: 20px;
+
+  background: #e5e5e5;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+
+.searchImg {
+  position: absolute;
+  left: 17.86%;
+  right: 17.86%;
+  top: 10.64%;
+  bottom: 12.77%;
+  width: 40px;
+
+  background: url(/img/search.png);
+}
+
+.favoritesImg {
+  position: absolute;
+  width: 44px;
+  height: 40px;
+  left: 1375px;
+  top: 20px;
+
+  background: url(/img/favorites.png);
+}
+
+.carta {
+  position: relative;
+  width: 1240px;
+  height: 221px;
+  left: 100px;
+  top: 159px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.phoneImg {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 44px;
+  top: 30px;
+  border: 0px;
+  padding: 0px;
+
+  /* background: url(/img/iphone.png); */
+  border-radius: 15px;
+}
+
+.precioCarta {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 348px;
+  top: 30px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.shippingImg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 498px;
+  top: 34px;
+
+  background: url(/img/shipping.png);
+}
+
+.phoneName {
+  position: absolute;
+  width: 500px;
+  height: 35px;
+  right: 392px;
+  top: 112px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.phoneCity {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 1011px;
+  top: 30px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.breadcrumbs {
+  position: absolute;
+  width: 520px;
+  height: 32px;
+  left: 99px;
+  top: 114px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.detailBox {
+  position: absolute;
+  width: 1240px;
+  height: 852px;
+  left: 100px;
+  top: 158px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.detailImg {
+  position: absolute;
+  width: 563px;
+  height: 520px;
+  left: 150px;
+  top: 212px;
+
+  /* background: url(D_916062-MLA43654417337_102020-I.jpg); */
+  border-radius: 15px;
+}
+
+.soldUnits {
+  position: absolute;
+  width: 312px;
+  height: 35px;
+  left: 978px;
+  top: 212px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.detailName {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 978px;
+  top: 278px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.detailPrice {
+  position: absolute;
+  width: 312px;
+  height: 33px;
+  left: 978px;
+  top: 335px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.comprarButton {
+  position: absolute;
+  width: 312px;
+  height: 51px;
+  left: 978px;
+  top: 416px;
+
+  background: #c968cb;
+  border-radius: 20px;
+}
+
+.comprarText {
+  position: absolute;
+  width: 236px;
+  height: 31px;
+  left: 1013px;
+  top: 423px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.favoritosButton {
+  position: absolute;
+  width: 312px;
+  height: 51px;
+  left: 978px;
+  top: 485px;
+
+  background: #8c86d7;
+  border-radius: 20px;
+}
+
+.favoritosText {
+  position: absolute;
+  width: 236px;
+  height: 31px;
+  left: 1013px;
+  top: 495px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.descripcionTitle {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 150px;
+  top: 755px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.descripcionText {
+  position: absolute;
+  width: 828px;
+  height: 170px;
+  left: 150px;
+  top: 809px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+
+  color: #b8acac;
+}
+
+.anuncioDiv {
+  position: absolute;
+  width: 578px;
+  height: 364px;
+  left: 486px;
+  top: 359px;
+
+  background: #ffffff;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+
+.nombreAnuncio {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 626px;
+  top: 473px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.anuncioText {
+  position: absolute;
+  width: 312px;
+  height: 51px;
+  left: 626px;
+  top: 535px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.anuncioLinea {
+  position: absolute;
+  width: 556px;
+  height: 0px;
+  left: 497px;
+  top: 654px;
+
+  border: 1px solid #d5c9c9;
+}
+
+.anuncioButton {
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  left: 906px;
+  top: 663px;
+
+  background: #8c86d7;
+  border-radius: 20px;
+}
+
+.anuncioButtonText {
+  position: absolute;
+  width: 106px;
+  height: 32px;
+  left: 924px;
+  top: 672px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.favoritesPhoneImg {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 100px;
+  top: 30px;
+  border: 0px;
+  padding: 0px;
+
+  /* background: url(/img/iphone.png); */
+  border-radius: 15px;
+}
+
+.favCheckBox {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 40px;
+  top: 92px;
+
+  background: #c4c4c4;
+}
+
+.eliminarDiv {
+  position: relative;
+  width: 1240px;
+  height: 89px;
+  left: 100px;
+  top: 163px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.eliminarButton {
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 200px;
+  top: 178px;
+
+  background: #e1677d;
+  border-radius: 20px;
+}
+
+.eliminarText {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  left: 270px;
+  top: 193px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.favCheckBoxTodos {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 40px;
+  top: 30px;
+
+  background: #c4c4c4;
+}
+
+.favParrafo {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  left: 100px;
+  top: 104px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.verArticuloButton {
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 984px;
+  top: 67px;
+
+  background: #c968cb;
+  border-radius: 20px;
+}
+
+.verArticuloText {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 1032px;
+  top: 80px;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.infoMessage {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196f3;
+  position: absolute;
+  width: 1240px;
+  height: 89px;
+  left: 100px;
+  top: 163px;
+}
+
+.infoText {  
+  left: 150px;
+  top: 193px;
+  position: absolute;
+  margin: 0px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}

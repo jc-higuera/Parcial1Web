@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="headerDiv">
+        <button onclick="listar()" class="marca"></button>
+        <form id="form">
+          <div class="barraDiv">
+            <input
+              type="text"
+              placeholder="Filtrar por categoría"
+              class="textInput"
+              id="busqueda"
+              onkeyup="submitted()"
+            />
+          </div>
+          <div class="divSearchImg" id="submitButton">
+            <img src="/img/search.png" class="searchImg" alt="imagen buscar"/>
+            <!-- <button class="searchImg search-btn" type="submit" id="submitButton"></button> -->
+          </div>
+        </form>
+        <!-- <img src="/img/favorites.png" class="favoritesImg" /> -->
+        <button class="favoritesImg" id="favImage"></button>
+      </div>
+    </header>
+    <p id="parrafo" class="breadcrumbs"></p>
+    <div id="lista">
+      <!-- <div class="carta">
+        <button class="phoneImg"></button>
+        <p class="precioCarta">$ 3.200.000</p>
+        <img class="shippingImg" src="/img/shipping.png" />
+        <p class="phoneName">iPhone 11 64GB Negro</p>
+        <p class="phoneCity">Bogotá</p>
+      </div>
+      <div class="carta">
+        <button class="phoneImg"></button>
+        <p class="precioCarta">$ 3.200.000</p>
+        <img class="shippingImg" src="/img/shipping.png" />
+      </div> -->
+    </div>
+    <div id="detail"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
